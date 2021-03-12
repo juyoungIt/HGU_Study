@@ -1,0 +1,74 @@
+--------------------------------------------------------------------------------------------------------------
+                                     <The List of Order Information>
+--------------------------------------------------------------------------------------------------------------
+|   1 |  [Tue Mar 31 23:41:00] |     Banana |     46 |  youtube | 010-4827-1846 |    Busan |    92000 |  Card |
+|   2 |  [Mon Mar 30 21:45:23] |     Orange |     56 |  wnwnw07 | 010-5527-0957 |    Iksan |   280000 |  Cash |
+|   3 |  [Sun Mar 29 12:36:45] |      Apple |     47 |  wndud07 | 010-1726-5874 |   Yanggu |    47000 |  Card |
+|   4 |  [Tue Apr 07 06:35:37] |     Banana |     14 |  winter1 | 010-1173-9372 |  Incheon |    28000 |  Card |
+|   5 |  [Wed Apr 15 21:45:44] |      Apple |     47 |  teckluv | 010-4726-4832 |    Iksan |    47000 |  Card |
+|   6 |  [Wed Apr 01 18:54:12] |      Apple |     32 |  talktok | 010-1831-4722 |   Gunsan |    32000 |  Cash |
+|   7 |  [Mon Apr 06 18:27:12] |      Grape |     26 |  summer1 | 010-8743-1736 |  Incheon |   260000 |  Card |
+|   8 |  [Mon Apr 20 08:46:45] |     Orange |     35 |  sugeun2 | 010-3623-8832 |    Seoul |   175000 |  Card |
+|   9 |  [Wed Apr 15 18:24:24] |      Grape |     31 |  stable1 | 010-2837-9783 |  Incheon |   310000 |  Card |
+|  10 |  [Thu Apr 16 15:20:17] |     Orange |     34 |  simbi11 | 010-8723-5668 |    Seoul |   170000 |  Cash |
+|  11 |  [Thu Apr 09 18:23:47] |      Melon |     12 |  samsung | 010-2564-1625 |    Iksan |    48000 |  Card |
+|  12 |  [Thu Apr 02 14:23:57] |      Apple |     12 |  ryzen02 | 010-8882-7463 |    Busan |    12000 |  Cash |
+|  13 |  [Thu Apr 23 14:23:41] |     Banana |     23 |  ryanluv | 010-8231-3823 |    Iksan |    46000 |  Card |
+|  14 |  [Sat Mar 28 18:12:45] |      Apple |     47 |  pmk2885 | 010-8273-7426 |    Iksan |    47000 |  Cash |
+|  15 |  [Sun Mar 29 20:47:12] |      Melon |     13 |  pinkpad | 010-3452-1827 |     Jeju |    52000 |  Cash |
+|  16 |  [Sun Apr 05 18:57:13] |      Melon |     43 |  panda12 | 010-5823-0419 |    Iksan |   172000 |  Cash |
+|  17 |  [Wed Apr 01 12:23:46] |      Melon |     12 |  newMon4 | 010-1162-7762 |    Busan |    48000 |  Card |
+|  18 |  [Wed Apr 01 23:23:11] |      Melon |     12 |  nasgood | 010-8473-1625 |   Gunsan |    48000 |  Card |
+|  19 |  [Sun Apr 05 10:11:56] |     Banana |     35 |  namjoo4 | 010-1726-0415 |    Seoul |    70000 |  Card |
+|  20 |  [Sat Apr 04 16:23:45] |      Grape |     14 |  naeun21 | 010-7723-0210 |    Seoul |   140000 |  Card |
+|  21 |  [Tue Apr 07 14:47:23] |     Orange |     12 |  muse103 | 010-8472-1635 |   Gunsan |    60000 |  Card |
+|  22 |  [Sun Mar 29 08:12:15] |     Banana |     45 |  monkey1 | 010-1753-2843 |    Seoul |    90000 |  Cash |
+|  23 |  [Fri Apr 03 12:23:57] |     Banana |     38 |  meungji | 010-3721-0818 |    Busan |    76000 |  Card |
+|  24 |  [Sun Mar 29 08:11:12] |      Melon |     34 |  melonlv | 010-2374-1967 |    Seoul |   136000 |  Cash |
+|  25 |  [Wed Apr 08 18:25:47] |      Grape |     37 |  melon88 | 010-1621-4637 |     Jeju |   370000 |  Card |
+|  26 |  [Mon Mar 30 13:42:17] |     Orange |     43 |  macLove | 010-4857-4736 |     Jeju |   215000 |  Card |
+|  27 |  [Fri Apr 10 06:24:01] |     Banana |     43 |  linefrd | 010-2273-3382 |    Seoul |    86000 |  Cash |
+|  28 |  [Fri Apr 10 18:34:12] |     Orange |     16 |  limebod | 010-1183-9482 |    Seoul |    80000 |  Cash |
+|  29 |  [Fri Apr 10 14:54:23] |      Grape |     23 |  kakaofd | 010-0028-4462 |    Seoul |   230000 |  Card |
+|  30 |  [Tue Apr 21 15:56:13] |      Grape |     46 |  jyitech | 010-6658-2734 |    Iksan |   460000 |  Card |
+|  31 |  [Fri Apr 17 16:22:23] |      Apple |     32 |  jkh0184 | 010-4473-3992 |    Iksan |    32000 |  Cash |
+|  32 |  [Mon Apr 20 17:50:26] |      Grape |     26 |  jeeone2 | 010-1265-9583 |    Seoul |   260000 |  Cash |
+|  33 |  [Wed Apr 01 14:27:37] |     Banana |     35 |  itsub01 | 010-7726-4527 |    Seoul |    70000 |  Card |
+|  34 |  [Mon Mar 30 17:04:07] |      Melon |     41 |  intel03 | 010-4723-1972 |    Seoul |   164000 |  Card |
+|  35 |  [Sat Mar 28 20:47:12] |      Grape |     12 |  htj3460 | 010-4968-3824 |    Iksan |   120000 |  Card |
+|  36 |  [Sat Apr 18 20:33:17] |     Banana |     56 |  hodong2 | 010-1235-1212 |    Busan |   112000 |  Card |
+|  37 |  [Sat Mar 28 15:53:27] |      Melon |     34 |  hjy2885 | 010-2882-7426 |    Iksan |   136000 |  Card |
+|  38 |  [Sat Mar 28 22:18:19] |     Orange |     35 |  hgu0760 | 010-2734-2734 |   Pohang |   175000 |  Card |
+|  39 |  [Sun Apr 05 12:23:34] |      Apple |     12 |  hayoung | 010-8632-0719 |    Seoul |    12000 |  Card |
+|  40 |  [Mon Mar 30 20:59:56] |      Grape |     12 |  goodday | 010-8704-1524 |  Incheon |   120000 |  Card |
+|  41 |  [Tue Mar 31 16:47:05] |     Orange |     11 |  gksehd7 | 010-3642-1957 |    Seoul |    55000 |  Cash |
+|  42 |  [Wed Apr 08 21:43:12] |     Orange |     24 |  genie01 | 010-8871-6254 |     Jeju |   120000 |  Cash |
+|  43 |  [Wed Apr 08 15:54:23] |      Apple |     46 |  fruit77 | 010-2234-2645 |    Iksan |    46000 |  Cash |
+|  44 |  [Thu Apr 02 07:11:11] |      Melon |     10 |  dasgood | 010-4726-9784 |   Gunsan |    40000 |  Cash |
+|  45 |  [Fri Apr 17 10:11:58] |      Melon |     12 |  colorsc | 010-1243-5742 |    Seoul |    48000 |  Cash |
+|  46 |  [Fri Apr 03 18:24:12] |      Grape |     43 |  chorong | 010-4827-0303 |    Seoul |   430000 |  Card |
+|  47 |  [Tue Apr 07 20:20:14] |      Melon |     12 |  check03 | 010-8573-1625 |   Gunsan |    48000 |  Card |
+|  48 |  [Sat Apr 11 11:57:16] |      Melon |     34 |  bread06 | 010-3623-4827 |     Jeju |   136000 |  Card |
+|  49 |  [Sat Apr 04 07:12:11] |      Melon |     14 |  bomi813 | 010-1123-0813 |   Gunsan |    56000 |  Card |
+|  50 |  [Sun Mar 29 09:05:06] |     Banana |     42 |  banana1 | 010-0969-2849 |  Incheon |    84000 |  Card |
+|  51 |  [Sat Apr 11 15:16:11] |     Banana |     11 |  applewc | 010-7362-1645 |    Seoul |    22000 |  Cash |
+|  52 |  [Fri Apr 03 05:11:02] |     Orange |     17 |  apink08 | 010-5721-8573 |    Busan |    85000 |  Card |
+|  53 |  [Mon Mar 30 23:41:00] |     Banana |     46 |  alrud17 | 010-9947-1523 |    Seoul |    92000 |  Card |
+----------------------------------------------------------
+    <Report of margin>
+Total Count :  1545
+Total Margin :  6390000
+----------------------------------------------------------
+----------------------------------------------------------
+         <The Information of each Product>
+----------------------------------------------------------
+1. Apple        275(17.8%)     275000( 4.3%)
+2. Banana       434(28.1%)     868000(13.6%)
+3. Melon        283(18.3%)    1132000(17.7%)
+4. Orange       283(18.3%)    1415000(22.1%)
+5. Grape        270(17.5%)    2700000(42.3%)
+----------------------------------------------------------
+        <The Information of each Pay method>
+----------------------------------------------------------
+1. Card  4610000(72.1%)
+2. Cash  1780000(27.9%)
