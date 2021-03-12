@@ -1,0 +1,270 @@
+/* 페이지의 상단 header 부분 */
+header
+{
+    width: 100%;
+    background-color: lightgray;
+    border: 1px solid blue;
+    margin-bottom: 10px;
+}
+
+/* 페이지의 제목을 표시하는 부분 */
+#title
+{
+    width: 400px;
+    color: green;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 30px;
+    position: relative;
+    -webkit-animation: titleMove 15s infinite; /* safari */
+    animation: titleMove 15s infinite;
+}
+/* 제목이 좌우로 움직이는 애니메이션에 대한 정의 */
+@keyframes titleMove
+{
+    0% {left: 0px; top: 0px;}
+    50%{left: 75%; top: 0px;}
+    100% {left: 0px; top: 0px;}
+}
+
+/* 페이지 상단에 위치한 navigation bar에 대한 부분 */
+#navBar
+{
+    /* height: 70px;
+    background-color: gray;
+    margin: 0px 10px;
+    margin-bottom: 40px; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+
+#navBar li
+{
+    float: left;
+}
+
+#navBar li a
+{
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 30px 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* 마지막 nav item을 제외하고 나머지 오른쪽에 적색 border를 그리게함 */
+#navBar li:not(:last-child)
+{
+    border-right: 2px solid red;
+}
+/* 마지막 nav item이 오른쪽으로 정렬되도록 함 */
+#navBar li:last-child
+{
+    float: right;
+}
+/* nav의 링크들에 hover된 경우 배경색상을 바꾸고 서체의 크기를 키움 */
+#navBar a:hover
+{
+    background-color: yellow;
+    color: darkcyan;
+    font-size: 35px;
+}
+
+/* 상단에 작은 제목을 표시하는 부분 */
+#top
+{
+    color: grey;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+/* dropdown 메뉴 하단에 추가 정보를 표시하는 부분 */
+#inbox
+{
+    width: 90%;
+    height: 100px;
+    border: 1px solid orange;
+    margin-left: 5px;
+}
+
+/* left part에 위치한 drop down menu */
+#dropdown
+{
+    width: 70%;
+    background-color: cyan;
+    border: 1px solid blue;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 5px;
+    padding-bottom: 20px;
+    list-style-type: none;
+
+}
+
+#dropdown a
+{
+    display: none;
+}
+
+#dropdown:hover a
+{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+#dropdown a:nth-child(odd)
+{
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#dropdown a:nth-child(odd):hover
+{
+    background-color: lightblue;
+}
+
+#dropdown a:nth-child(even)
+{
+    background-color: cyan;
+}
+
+#rotateBox
+{
+    width: 400px;
+    height: 120px;
+    margin: 30px;
+    background-color: purple;
+    color: yellow;
+    font-size: 25px;
+    font-weight: bold;
+    -webkit-transistion: transform 2s; /* safari */
+    transition: transform 2s;
+}
+
+#rotateBox:hover
+{
+    transform: rotate(360deg);
+}
+
+#toplink
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 10px;
+}
+
+#toplink a:hover
+{
+    color: cornflowerblue;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#underlink
+{
+    font-size: 20px;
+    font-weight: bold;
+    border-top: 3px solid orange;
+    padding: 15px 0px;
+    margin: 0px 10px;
+}
+
+#underlink a:hover
+{
+    color: cornflowerblue;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* 페이지의 주요 내용을 담는 부분(left, center, right) */
+article 
+{
+    width: 100%;
+    height: 450px;
+    margin-bottom: 10px;
+}
+
+/* 페이지에서 내용을 표시하는 좌측영역 */
+#left_part
+{
+    float: left;
+    width: 20%;
+    height: 450px;
+    border: 1px solid blue;
+    margin-right: 11px;
+}
+/* 페이지에서 내용을 표시하는 중앙영역 */
+#center_part
+{
+    float: left;
+    width: 67%;
+    border: 1px solid blue;
+    margin-right: 11px;
+}
+
+/* 텍스트의 특정 부분을 강조하기 위한 목적 */
+#mark
+{
+    background-color: yellow;
+}
+
+/* 페이지에서 내용을 표시하는 우측영역 */
+#right_part
+{
+    float: left;
+    width: 10%;
+    height: 450px;
+    border: 1px solid blue;
+}
+/* right part 내에 텍스트를 담고있는 영역 */
+#textBox
+{
+    color: grey;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 5px;
+}
+
+/* 페이지 내에서 지속적으로 사각형 형태로 움직이는 이미지 */
+#rotationImg
+{
+    border: 3px solid black;
+    border-radius: 200px;
+    width: 120px;
+    position: relative;
+    -webkit-animation: imageMove 10s infinite; /* safari */
+    animation: imageMove 10s infinite;
+}
+/* 이미지를 움직이는 애니메이션에 대한 정의 */
+@keyframes imageMove
+{
+    0% {left: 400px; top: -350px;}
+    25% {left: 1200px; top: -350px;}
+    50%{left: 1200px; top: -100px;}
+    75% {left: 400px; top: -100px;}
+    100% {left: 400px; top: -350px;}
+}
+
+/* 페이지의 footer 부분 */
+footer
+{
+    clear: both;
+    width: 100%;
+    height: 120px;
+    background-color: lightgray;
+    border: 1px solid blue;
+    color: green;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<persons>
+<person firstname='peter' lastname='brown' birthday='1960-12-28' >
+  <firstname>Hege</firstname>
+  <lastname>Refsnes</lastname>
+  <children>
+    <childname>Cecilie</childname>
+  </children>
+</person>
+
+<person>
+  <firstname>Jim</firstname>
+  <lastname>Brown</lastname>
+    <children>
+  	<childname>Hege</childname>
+  	<childname>Stale</childname>
+  	<childname>Jim</childname>
+  	<childname>Borge</childname>
+    </children>
+</person>
+
+<person>
+  <firstname>Stale</firstname>
+  <lastname>Refsnes</lastname>
+  <age> 40 </age>  
+</person>
+
+</persons>

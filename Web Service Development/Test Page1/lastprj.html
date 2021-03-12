@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Last Programmig Assignment</title>
+    <!-- 해당 페이지를 위해서 작성된 css 파일을 로딩 -->
+    <link rel="stylesheet" href="lastprj.css">
+</head>
+<body>
+    <!-- 페이지의 header -->
+    <header>
+
+        <!-- 페이지의 제목(title) -->
+        <div id="title">
+            Handong Tennis Club
+        </div>
+
+        <!-- 페이지 상단에 가로형태로 나타나는 navigation bar -->
+        <ul id="navBar">
+            <li><a href="TennisTournament.php">Insert Tournament Winner</a></li>
+            <li><a href="TennisTournament.php">Insert Winner DOB</a></li>
+            <li><a href="cancelTwoRecords.php">Deletion</a></li>
+            <li><a href="TournamentDOBJoin.php">Join Operation</a></li>
+            <li><a href="TournamentDisplay.php">Tennis Tournament</a></li>
+        </ul>
+
+    </header>
+
+
+    <!-- Home 페이지의 left, center, right 영역에 대한 부분 -->
+    <article>
+
+        <!-- 정보를 표시하는 왼쪽 부분 -->
+        <div id="left_part">
+            <p id="top">Tennis Tournament DB</p>
+            <div id="dropdown">Choose
+                <a href="TennisTournament.php">Tournament Insertion</a>
+                <a>&nbsp;</a>
+                <a href="TennisTournament.php">Winner Insertion</a>
+                <a>&nbsp;</a>
+                <a href="cancelTwoRecords.php">Deletion</a>
+                <a>&nbsp;</a>
+                <a href="TournamentDOBJoin.php">Join</a>
+                <a>&nbsp;</a>
+            </div>
+
+            <!-- 정보를 표시하는 하단 박스 -->
+            <div id="inbox">
+                Senior Tournament <br />
+                Freshmen Tournament <br />
+                Pohang City Tournament <br/>
+            </div>
+        </div>
+
+        <!-- 정보를 표시하는 가운데 부분 -->
+        <div id="center_part">
+            <!-- hover시 회전하는 박스영역 -->
+            <div id="rotateBox">
+                Handong Tennis Club Open
+            </div>
+            <!-- hyperlink를 표시하는 부분 -->
+            <div id="toplink">
+                <a href="TournamentDisplay.php">Past Tournament</a>
+            </div>
+            <!-- 하단에 위치한 2개의 hyperlink를 표시하는 부분 -->
+            <div id="underlink">
+                <p><a href="RegisterMatch.php">Register</a> the <span id="mark">upcoming match</span> - Freshmen Match</p>
+                <p><a href="RegistrationDisplay.php">Registration list.</a> Registration Status</p>
+            </div>
+        </div>
+
+        <!-- 정보를 표시하는 오른쪽 부분 -->
+        <div id="right_part">
+            <div id="textBox">
+                Freshmen Match <br />
+                Jan. 15, 2021 <br />
+                10 AM ~ 4 PM <br />
+            </div>
+        </div>
+
+    </article>
+
+    <!-- 페이지에 대한 footer를 표시하는 부분 -->
+    <footer>
+        <p>Handong Tennis clubs<br />Pohang, Kyungbuk</p>
+    </footer>
+
+    <!-- 화면 상에서 지속적으로 움직이는 이미지 -->
+    <img id="rotationImg" src="animation.png" />
+</body>
+</html>

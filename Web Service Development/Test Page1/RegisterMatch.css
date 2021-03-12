@@ -1,0 +1,62 @@
+body
+{
+    width: 400px;
+}
+
+#header
+{
+    background-color: lightgray;
+    font-size: 35px;
+    font-weight: bold;
+    border: 1px solid blue;
+    padding-top: 20px;
+}
+
+#subheader
+{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px green;
+    padding: 20px 0px;
+}
+
+#formContainer
+{
+    height: 130px;
+    background-color: white;
+    border: 1px solid blue;
+    -webkit-animation: colorChange 10s infinite; /* safari */
+    animation: colorChange 10s infinite;
+}
+
+@keyframes colorChange
+{
+    0% {background-color: red}
+    10% {background-color: orange}
+    20% {background-color: yellow}
+    30% {background-color: green}
+    40% {background-color: blue}
+    50% {background-color: coral}
+    60% {background-color: purple}
+    70% {background-color: tomato}
+    80% {background-color: gold}
+    90% {background-color: cyan}
+    100% {background-color: lightblue}
+}
+
+#returnHome
+{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+
+#footer
+{
+    font-size: 25px;
+    font-weight: bold;
+    background-color: cyan;
+    border: 1px solid blue;
+    padding: 20px 0px;
+}

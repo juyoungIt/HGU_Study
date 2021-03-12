@@ -1,0 +1,80 @@
+catalog {
+    background-color: white;
+    
+}
+cd {
+    position: relative;
+    width: 450px;
+    height: auto;
+    background-color: cyan;
+    border: 1px solid black;
+    display: block;
+    margin-bottom: 50pt;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, "Times New Roman", Times, serif;
+}
+cd{transform: rotate(10deg);}
+
+
+
+title {
+    display: block;
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: hotpink;
+    color: black;
+    font-size: 25pt;
+    transform: skewY(22deg);
+}
+
+artist {
+    display: block;
+    width: 150px;
+    padding: 10px;
+    background-color: yellow;
+    border: 1px solid black;
+    color: blue;
+    font-size: 20pt;
+}
+artist{transform: rotate(-10deg);}
+
+country {
+    display: block;
+    padding: 20px;
+    color: blue;
+    font-size: 25pt;
+    text-shadow: 4px 4px 1px red;
+}
+
+company {
+    display: block;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    color: black;
+    font-size: 25pt;
+    text-shadow: 10px 10px 3px red;
+}
+
+price {
+    display: block;
+    width: 270px;
+    margin-left: 20px;
+    background-color: orange;
+    color: black;
+    font-size: 25pt;
+    transform: skewX(40deg); 
+}
+
+year {
+    display: block;
+    width: 80px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    background-color: dodgerblue;
+    color: black;
+    font-size: 25pt;
+    margin-left: 330px;
+}
